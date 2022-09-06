@@ -20,7 +20,7 @@ while num_guess < 10 && guessed_it
   elsif number < target
     puts 'Target HIGH'
   elsif number == target
-    puts 'GJ GJ'
+    puts "Congluratation #{input}! You win! Guess: #{num_guess}"
     guessed_it = false
   end
   num_guess += 1

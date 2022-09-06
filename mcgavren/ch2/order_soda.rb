@@ -1,9 +1,5 @@
 def order_soda(flavor, size = 'medium', quantity = 1)
-  plular = if quantity == 1
-             'soda'
-           else
-             'sodas'
-           end
+  plular = quantity == 1 ? 'soda' : 'sodas'
   puts "#{quantity} #{size} #{flavor} #{plular}, comming right up!"
 end
 

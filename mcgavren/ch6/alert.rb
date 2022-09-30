@@ -3,8 +3,8 @@ def alert_of_true
     puts 'Block returned TRUE!'
   else
     puts 'Block retunred FALSE!'
-  end 
-end 
+  end
+end
 
 alert_of_true { 2 + 2 == 5 }
 alert_of_true { 1 < 2 }
